@@ -1,0 +1,93 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>examen</title>
+  <link rel="stylesheet" href="SURVEY FORM.CSS">
+</head>
+
+<body>
+  <div class="header">
+
+    <h1 id="title">programmer survey form</h1>
+    <p id="description"><em>thank you talking the time to help us improve the plataform</em></p>
+  </div>
+  <div class="container">
+
+
+
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name" class="inputs">name</label>
+        <input id="name" type="text" placeholder="enter your name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">email</label>
+        <input id="email" type="email" placeholder="enter your email" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">age<span>(optional)</span><label>
+            <input id="number" type="number" placeholder="age" class="form-control" min="0" max="99" required>
+      </div>
+      <div class="form-group">
+        <p> which option best describes your current role?</p>
+        <select id="dropdown" name="role" class="form-control">
+          <option>select current role</option>
+          <option value="student">student</option>
+          <option value="teacher">teacher</option>
+          <option value="noob"> noob</option>
+          <option value="programmer">programer</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>would you recomend programmers camp to a friend</p>
+        <label for="indoor">
+          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">definitely
+        </label>
+        <label for="indoor">
+          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor" class="">maybe
+        </label>
+        <label for="indoor">
+          <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">not sure
+        </label>
+
+        <div class="form-group">
+          <p>What is your favorite feature of freeCodeCamp?</p>
+
+          <select id="dropdown" name="role" class="form-control selecciona">
+            <option>select an option</option>
+            <option value="challengues">challengues</option>
+            <option value="projets">projects</option>
+            <option value="opinion">opinion</option>
+            <option value="open saurce">open saurce</option>
+
+          </select>
+        </div>
+
+        <p> what is your favorite part of programmer camp?<br>
+          <label for="indoor">
+            <input id="indoor" value="indoor" type="checkbox" name="indoor-outdoor">Challenges
+          </label>
+          <label for="indoor">
+            <input id="indoor" value="indoor" type="checkbox" name="indoor-outdoor">Data Visualization
+          </label>
+          <label for="indoor">
+            <input id="indoor" value="indoor" type="checkbox" name="indoor-outdoor"> Wiki
+          </label>
+          <label for="indoor">
+            <input id="indoor" value="indoor" type="checkbox" name="indoor-outdoor">videos
+      </div>
+      <div class="form-group">
+        <p>any comments or suggetions?</p>
+        <textarea id="comments" class="input-textarea" placeholder="enter your comment here"></textarea>
+      </div>
+      <button id="submit" type="submit" class="submit-button">submit</button>
+  </div>
+
+
+  </form>
+  </div>
+</body>
+
+</html>

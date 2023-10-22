@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: rgba(255, 0, 0, 0.7);
+    background-image: linear-gradient(115deg,
+            rgba(158, 58, 58, 0.8),
+            rgba(206, 136, 136, 0.7)),
+        url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/BYEUYKL6DFBQNNVVR6BFDIKCNA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#title {
+    margin: 20px
+}
+
+
+body {
+
+    background: rgba(255, 0, 0, 0.7);
+
+}
+
+
+h1 {
+    text-align: center;
+
+
+}
+
+.header {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px
+}
+
+.header p {
+
+    color: rgba(255, 255, 255, 0.800);
+    font-size: 20px;
+    padding-top: 1px
+}
+
+.container {
+
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+
+}
+
+
+form {
+
+    background-color: rgba(255, 0, 0, 0.6);
+    width: 720px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    color: rgb(227, 222, 222);
+    margin-top: 5rem;
+    margin-bottom: 20px;
+
+    font-weight: 580;
+    border-radius: 4%
+}
+
+
+body {
+    text-align: center;
+}
+
+.form-group {
+    padding: 0 5.5px 2.5rem 16px;
+    display: block;
+    width: 95%;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding: 15px;
+
+
+}
+
+.form-control {
+    width: 96%;
+    height: 2.375rem;
+    padding-left: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: gray;
+    text-transform: capitalize;
+
+}
+
+
+#number-label {
+    display: block;
+    text-align: left;
+    width: 103.8%;
+
+
+}
+
+span {
+
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+
+}
+
+
+
+
+
+
+
+
+
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+
+}
+
+
+
+
+form p {
+    font-size: 18px;
+    padding: 11px;
+    text-align: left;
+    margin-bottom: 10px;
+
+
+}
+
+
+[type="radio"] {
+    width: 24px;
+    height: 21px;
+    margin: 0 2.5px auto 3px;
+    cursor: pointer;
+
+}
+
+.selecciona {
+    width: 104.8%;
+}
+
+
+
+
+
+[type="checkbox"] {
+    width: 30px;
+    height: 21px;
+    margin: 0 2.5px auto 3px;
+    cursor: pointer;
+
+
+}
+
+
+.input-textarea {
+    font-size: 16px;
+    min-height: 90px;
+    width: 100%;
+    resize: vertical;
+    padding: 0.524rem;
+    margin: 0 3px 14px 4px;
+
+
+
+}
+
+#submit {
+    width: 34.375rem;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#submit:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+
+
+/* modo responsive*/
+
+
+@media (max-width:650px) {
+    form {
+        width: 500px;
+
+    }
+
+
+
+
+    form p {
+        font-size: 25px;
+
+    }
+
+
+
+
+    #submit {
+        width: 190px;
+        padding: 1.3em 3em;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+
+}
